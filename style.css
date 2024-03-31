@@ -34,15 +34,8 @@
       rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px);
 }
 
-html,body{
-    margin: 0;
-  padding: 0;
-}
-
 body {
     font-family: 'Yomogi';font-size: 22px;
-    letter-spacing: .025em;
-    line-height: 1.8;
 }
 
 #profile{
