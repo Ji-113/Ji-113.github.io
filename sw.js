@@ -16,8 +16,7 @@ const urlsToCache = [
   './countdown/Seiga-festival.html',
   './css/style.css',
   './images/favicon.ico',
-  './images/b.jpg',
-  './images/c.jpg',
+  './images/スクリーンショット 2024-03-31 215924.png',
 ];
 
 self.addEventListener('install', (event) => {
