@@ -117,8 +117,11 @@ body {
     text-decoration: none;
 }
 
-.background_btn02 {
+#linkbutton{
   margin:auto
+}
+
+.background_btn02 {
   display: inline-block;
   color: #fff; /* 文字色 */
   font-weight: bold; /* 文字の太さ */
