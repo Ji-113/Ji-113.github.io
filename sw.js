@@ -15,7 +15,7 @@ const urlsToCache = [
   './countdown/j-third-grade.html',
   './countdown/Seiga-festival.html',
   './css/style.css',
-  './images/a.jpg',
+  './images/favicon.ico',
   './images/b.jpg',
   './images/c.jpg',
 ];
