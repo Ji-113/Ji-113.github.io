@@ -118,6 +118,7 @@ body {
 }
 
 .background_btn02 {
+  margin:auto
   display: inline-block;
   color: #fff; /* 文字色 */
   font-weight: bold; /* 文字の太さ */
