@@ -116,3 +116,39 @@ body {
     color: #333;
     text-decoration: none;
 }
+
+.background_btn02 {
+  display: inline-block;
+  color: #fff; /* 文字色 */
+  font-weight: bold; /* 文字の太さ */
+  width: 100%;
+  max-width: 350px; /* ボタン幅 */
+  text-decoration: none;
+  border: 2px solid #F38173; /* 線の色 */
+  padding: 1em 2em;
+  text-align: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #fff 0%, #fff 50%, #F38173 50%, #F38173 100%); /* 背景色(マウスオーバー後→前) */
+  transition: background-position .8s cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition: background-position .8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.background_btn02_arrow {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+/* マウスオーバーした際のデザイン */
+.background_btn02:hover {
+  background-position: 0 0;
+  color: #000; /* 文字色 */
+}
+
+.background_btn02:hover .background_btn02-line path ,
+.background_btn02:hover .background_btn02-line line {
+  stroke: #000; /* 矢印の色 */
+}
+            
